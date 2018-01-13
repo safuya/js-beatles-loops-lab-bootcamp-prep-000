@@ -10,6 +10,7 @@ function johnLennonFacts(facts) {
   var len = facts.length - 1
   while (len >= 0) {
     facts[len] += '!!!'
+    len--
   }
   return facts
 }
